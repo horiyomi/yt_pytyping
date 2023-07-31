@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "yt-pytyping"
+version = "0.1.0"
+description = ""
+authors = ["ODT"]
+readme = "README.md"
+packages = [{include = "yt_pytyping"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mypy = "^1.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
